@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+   <description>参考情報:
+1. https://forum.katalon.com/t/i-want-to-name-testobjects-in-my-native-language/33889
+2. https://forum.katalon.com/t/i-want-to-name-folders-in-my-native-language/34425
+3. </description>
+   <name>Checking_if_KS7.1.0_fixed_internationalization_problems</name>
+   <tag></tag>
+   <UUID>0b06a6e6-f436-4ceb-9fb0-2a292ca61cb0</UUID>
+   <migratedVersion>5.9.0</migratedVersion>
+   <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>C:\Users\qcq0264\katalon-workspace\Checking_if_KS7.1.0_fixed_internationalization_problems\Checking_if_KS7.1.0_fixed_internationalization_problems.prj</projectFileLocation>
+   <sourceContent>
+      <sourceFolderList>
+         <sourceFolderConfiguration>
+            <url>Include/scripts/groovy</url>
+         </sourceFolderConfiguration>
+      </sourceFolderList>
+      <systemFolderList>
+         <systemFolderConfiguration>
+            <url>Include/scripts/groovy</url>
+         </systemFolderConfiguration>
+         <systemFolderConfiguration>
+            <url>Include/features</url>
+         </systemFolderConfiguration>
+         <systemFolderConfiguration>
+            <url>Include/config</url>
+         </systemFolderConfiguration>
+      </systemFolderList>
+   </sourceContent>
+   <type>WEBUI</type>
+</Project>

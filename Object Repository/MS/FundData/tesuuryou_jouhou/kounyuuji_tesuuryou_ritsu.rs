@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>kounyuuji_tesuuryou_ritsu</name>
+   <tag></tag>
+   <elementGuidId>7ae316c4-ef12-4b08-888b-20ac8e0a9382</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//td[contains(.,'購入時手数料率')]/following-sibling::td[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//td[contains(.,'購入時手数料率')]/following-sibling::td[1]</value>
+   </webElementProperties>
+</WebElementEntity>

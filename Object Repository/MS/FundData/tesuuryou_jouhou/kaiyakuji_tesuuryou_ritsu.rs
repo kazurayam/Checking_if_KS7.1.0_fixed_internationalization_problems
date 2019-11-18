@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>kaiyakuji_tesuuryou_ritsu</name>
+   <tag></tag>
+   <elementGuidId>d2d11e81-51b8-44b6-8b42-bd328614b4f1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//td[contains(.,'解約時手数料率')]/following-sibling::td[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//td[contains(.,'解約時手数料率')]/following-sibling::td[1]</value>
+   </webElementProperties>
+</WebElementEntity>

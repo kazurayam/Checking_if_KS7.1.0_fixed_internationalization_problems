@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description>解約時手数料額</description>
+   <name>解約時手数料額</name>
+   <tag></tag>
+   <elementGuidId>b2310bd0-1ef4-4378-a3c7-7f00b6377218</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//td[contains(.,'解約時手数料額')]/following-sibling::td[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//td[contains(.,'解約時手数料額')]/following-sibling::td[1]</value>
+   </webElementProperties>
+</WebElementEntity>

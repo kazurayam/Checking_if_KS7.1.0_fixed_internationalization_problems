@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description>購入時手数料額</description>
+   <name>購入時手数料額</name>
+   <tag></tag>
+   <elementGuidId>3ee7a379-0fb7-4693-b6fb-679b6ac09a22</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//td[contains(.,'購入時手数料額')]/following-sibling::td[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//td[contains(.,'購入時手数料額')]/following-sibling::td[1]</value>
+   </webElementProperties>
+</WebElementEntity>
