@@ -21,13 +21,13 @@ on GitHub at
 
 I found that v7.1.0 rc1 has been much improved. Let me note a list of changes at v7.1.0 rc1 I found:
 
-1. The Katalon Project can have name containing non-latin characters. For example `サンプルproject`.
-2. Test Cases directory can contain folders and test cases named with non-latin characters. For example `Test Cases/DataDrivenTestingのサンプル` and `Test Cases/example/MS/画面確認`.
-3. Object Repository directory can contain folders and test objects named with non-latin characters. For example `Object Repository/MS/FundData/手数料情報/解約時信託財産留保額`.
-4. Test Suites directory can contain folders, test suites and test suite collections named with non-latin characters. For example `Test Suites/サンプル/テストスイートTS1`.
-5. Data Files directory can contain folders and data file named with non-latin characters. For example `Data Files/サンプル/テストデータviaExcel`.
+1. The Katalon Project can have name containing non Latin characters. For example `サンプルproject`.
+2. Test Cases directory can contain folders and test cases named with non Latin characters. For example `Test Cases/DataDrivenTestingのサンプル` and `Test Cases/example/MS/画面確認`.
+3. Object Repository directory can contain folders and test objects named with non Latin characters. For example `Object Repository/MS/FundData/手数料情報/解約時信託財産留保額`.
+4. Test Suites directory can contain folders, test suites and test suite collections named with non Latin characters. For example `Test Suites/サンプル/テストスイートTS1`.
+5. Data Files directory can contain folders and data file named with non Latin characters. For example `Data Files/サンプル/テストデータviaExcel`.
 
-These changes are fine. Here I attached a screenshot which shows how the Tests Exploure looks like. The folders and objects named in 日本語 look much more instuitive and easier  for me.
+These changes are fine. Here I attached a screenshot which shows how the Tests Explorer looks like. The folders and objects named in 日本語 look much more intuitive and easier  for me.
 
 ![Tests Explorer](docs/images/v7.1.0rc1_tests_explorer.png)
 
@@ -37,4 +37,4 @@ I found a few problems in the [Basic Report plugin](https://store.katalon.com/pr
 
 1. The Basic Report result shows the name of a test case `画面確認` in UNICODE escape sequence as `\u753B\u9762\u78BA\u8A8D`. I want the name to be shown in raw Japanese, not escaped.
 ![BasicReportResult](docs/images/BasicReportPlugin_should_be_improved.png)
-2. The PDF exported by the Basic Report pluging seems to be unable to show any non-latin characters. See the attached [PDF example](docs/pdf/20191118_140318.pdf). I have a test object named `MS/FundData/h2_手数料情報`, but it is printed in the PDF as `MS/FundData/h2_`. I think that that PDF is not enabled to print Japanese characters because appropriate Font is not configured.
+2. The PDF exported by the Basic Report pluging seems to be unable to show any non Latin characters. See the attached [PDF example](docs/pdf/20191118_140318.pdf). I have a test object named `MS/FundData/h2_手数料情報`, but it is printed in the PDF as `MS/FundData/h2_`. I think that that PDF is not enabled to print Japanese characters because appropriate Font is not configured.
