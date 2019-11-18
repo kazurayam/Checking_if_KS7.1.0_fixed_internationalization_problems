@@ -26,6 +26,7 @@ I found that v7.1.0 rc1 has been much improved. Let me note a list of changes at
 3. Object Repository directory can contain folders and test objects named with non Latin characters. For example `Object Repository/MS/FundData/手数料情報/解約時信託財産留保額`.
 4. Test Suites directory can contain folders, test suites and test suite collections named with non Latin characters. For example `Test Suites/サンプル/テストスイートTS1`.
 5. Data Files directory can contain folders and data file named with non Latin characters. For example `Data Files/サンプル/テストデータviaExcel`.
+6. Description of project, test cases, test suites, test objects had a problem: the text is shown in UNICODE escape sequence. See my previous post at https://forum.katalon.com/t/i18n-problem-description-of-a-testcase-in-japanese-displayed-in-unicode-string/9521/4 . This problem is also addressed by the v7.1.0 rc1. 
 
 These changes are fine. Here I attached a screenshot which shows how the Tests Explorer looks like. The folders and objects named in 日本語 look much more intuitive and easier  for me.
 
