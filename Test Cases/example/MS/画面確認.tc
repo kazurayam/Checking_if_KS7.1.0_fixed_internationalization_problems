@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>画面確認</description>
+   <name>画面確認</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a8f3b512-0d55-4025-94e8-8e233ba6036a</testCaseGuid>
+</TestCaseEntity>

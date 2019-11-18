@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>checking data displayed on the web pages</description>
    <name>gamen_kakunin</name>
    <tag></tag>
    <comment></comment>
